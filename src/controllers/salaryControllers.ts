@@ -3,7 +3,7 @@ import { Op } from 'sequelize';
 import { Attendance, Employee } from '../models';
 import { calculateGross, calculateTax, calculatePF, calculateDailyWage } from '../utils/salaryUtils';
 
-export const calculateSalary = async (req: Request, res: Response) => {
+export const calculateSalary  = async (req: Request, res: Response) => {
   try {
     const { employeeId, month } = req.body;
 

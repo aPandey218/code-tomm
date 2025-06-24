@@ -1,30 +1,3 @@
-// export function calculateGross(
-//   basic: number,
-//   hra: number,
-//   allowances: number
-// ): number {
-//   return basic + hra + allowances;
-// }
-
-// export function calculateTax(gross: number): number {
-//   if (gross <= 250000) return 0;
-//   if (gross <= 500000) return gross * 0.05;
-//   if (gross <= 1000000) return gross * 0.2;
-//   return gross * 0.3;
-// }
-
-// export function calculatePF(basic: number): number {
-//   return basic * 0.12;
-// }
-
-// export function calculateDailyWage(
-//   gross: number,
-//   workingDays = 22
-// ): number {
-//   return gross / workingDays;
-// }
-
-
 import { Op } from 'sequelize';
 import { Attendance, Employee } from '../models';
 
